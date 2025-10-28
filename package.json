@@ -1,0 +1,33 @@
+{
+  "name": "gilded-mirror-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:netlify": "netlify dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "gray-matter": "^4.0.3",
+    "ics": "^2.45.0",
+    "lucide-react": "^0.456.0",
+    "marked": "^12.0.2",
+    "netlify-identity-widget": "^1.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "recharts": "^2.10.3",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "netlify-cli": "^17.24.3",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  }
+}
